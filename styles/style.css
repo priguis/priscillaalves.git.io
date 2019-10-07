@@ -1,3 +1,7 @@
+a:hover{
+    text-decoration: none;
+
+}
 .bg-roxo {
     background-color: #7e459b;
 }
@@ -6,6 +10,9 @@ nav a:hover {
 }
 .imagem-carrosel {
     object-fit: cover;
-    object-position: 0 50%;
-    height: 80vh;
+    object-position: 0 40%;
+    height: 65vh;
+}
+.redes-sociais {
+
 }
