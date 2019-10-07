@@ -13,6 +13,15 @@ nav a:hover {
     object-position: 0 40%;
     height: 65vh;
 }
-.redes-sociais {
+.redes-sociais span {
+    color:black;
+}
+.redes-sociais i{
+    
+}
+.redes-sociais span:hover {
+    font-weight: 500;
+    color: #7e459b;
+
 
 }
