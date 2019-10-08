@@ -85,7 +85,7 @@
                     </a>
                     <a href="" target="_blank">
                         <i class="fab fa-linkedin"></i>
-                        <span class="text-dark"> https://www.linkedin.com/in/priscilla-alves-48a16417a/</span>
+                        <span class="text-dark"> https://www.linkedin.com/in/prigs/</span>
                     </a>
                     <a href="" target="_blank">
                         <i class="fas fa-envelope"></i>
@@ -97,68 +97,168 @@
     </header>
 
     <!-- seções - habilidades e sobre -->
-    <section>
-        <h3>Habilidades</h3>
-        <div>
-            <i class="fab fa-html5"></i>
-            <p>HTML</p>
-        </div>
-        <div>
-            <i class="fab fa-css3-alt"></i>
-            <p>CSS</p>
-        </div>
-        <div>
-            <i class="fab fa-js"></i>
-            <p>JavaScript</p>
-        </div>
-        <div>
-            <i class="fab fa-sass"></i>
-            <p>Sass</p>
-        </div>
-        <div>
-            <i class="fas fa-book"></i>
-            <p>jQuery</p>
-        </div>
-        <div>
-            <i class="fab fa-react"></i>
-            <p>React</p>
-        </div>
-        <div>
-            <i class="fab fa-bootstrap"></i>
-            <p>Bootstrap</p>
-        </div>
-        <div>
-            <i class="fab fa-git-alt"></i>
-            <p>Git</p>
-        </div>
-        <div>
-            <i class="fas fa-tasks"></i>
-            <p>Scrum</p>
-        </div>
+    <section class="bg-roxo text-white py-4">
+        <div class="container d-flex flex-column flex-lg-row">
+            <div class="col-lg-6 text-center habilidades">
 
-        <section>
-            <h3>Sobre</h3>
-            <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit facere ea aperiam modi
-                magni asperiores? <span>Impedit qui saepe necessitatibus exercitationem </span> Impedit qui saepe
-                necessitatibus exercitationem debitis perspiciatis ex. Porro ut iste.</p>
-            <p>Outras áreas de interesse: <span>metodologias ágeis, UX, Python, Clojure</span>.</p>
-        </section>
+                <h3>Habilidades</h3>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <i class="fab fa-sass"></i>
+                        <p>Sass</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-book"></i>
+                        <p>jQuery</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fab fa-react"></i>
+                        <p>React</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <i class="fab fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fab fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-tasks"></i>
+                        <p>Scrum</p>
+                    </div>
+                </div>
+            </div>
+            <section class="col-lg-6 text-center">
+                <h3>Sobre</h3>
+                <p>Aluna do <span>bootcamp de front-end</span> da {reprograma}.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit facere ea aperiam
+                    modi
+                    magni asperiores? <span>Impedit qui saepe necessitatibus exercitationem </span> Impedit qui saepe
+                    necessitatibus exercitationem debitis perspiciatis ex. Porro ut iste.</p>
+                <p>Outras áreas de interesse: <span>metodologias ágeis, UX, Python, Clojure</span>.</p>
+        </div>
+    </section>
     </section>
 
     <!-- cards - meus projetos -->
-    <section>
+    
+    <section class="py-4">
+            <div class="container text-center">
         <h3>Portfólio</h3>
         <!-- cards -->
-        <!-- modais -->
-        <img src="./assets/images/modal-01.jpg" alt="">
-        <img src="./assets/images/modal-02.jpg" alt="">
-        <img src="./assets/images/modal-03.jpg" alt="">
+        <div class="row justify-content-center">
+        
+        <div class="card tamanho-card" style="width: 18rem;">
+                <img class="card-img-top imagem_cards" src="./assets/images/modal-01.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal01">Go somewhere</a>
+                </div>
+              </div>
+              <div class="modal" tabindex="-1" role="dialog" id="modal01">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Modal body text goes here.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              <div class="card tamanho-card" style="width: 18rem;">
+                    <img class="card-img-top imagem_cards" src="./assets/images/modal-02.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#modal02">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="modal" tabindex="-1" role="dialog" id="modal02">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  <div class="card tamanho-card" style="width: 18rem;">
+                        <img class="card-img-top imagem_cards" src="./assets/images/modal-03.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal03">Go somewhere</a>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="modal" tabindex="-1" role="dialog" id="modal03">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Modal title</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>Modal body text goes here.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+        <!-- modais
+        <img src="./assets/images/modal-01.png" alt="">
+        <img src="./assets/images/modal-02.png" alt="">
+        <img src="./assets/images/modal-03.png" alt=""> -->
     </section>
 
     <!-- footer -->
-    <footer>
-        <small>Desenvolvido com Bootstrap por Nome enquanto aluna da<span><a href="http://reprograma.com.br/index.html"
+    <footer class="bg-roxo row justify-content-center text-white">
+        <small>Desenvolvido com Bootstrap por Priscilla Alves enquanto aluna da <span class="text-dark"><a href="http://reprograma.com.br/index.html"
                     target="_blank">{reprograma}</a></span> 2019</small>
     </footer>
 
