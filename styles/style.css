@@ -18,6 +18,7 @@ nav a:hover {
 }
 .redes-sociais i{
     color:  #7e459b;
+    font-size: 1.2rem;
 }
 .redes-sociais span:hover {
     font-weight: 500;
@@ -37,5 +38,13 @@ nav a:hover {
     height:48vh;
 }
 footer {
-    height: 7vh;
+    height: 5vh;
+}
+
+footer a:visited{
+    color:#b070f0;
+}
+
+footer a:hover{
+    text-decoration: none;
 }
